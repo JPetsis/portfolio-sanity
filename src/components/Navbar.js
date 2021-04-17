@@ -16,7 +16,7 @@ export default function NavBar() {
             Ioannis
           </NavLink>
         </nav>
-        <nav className="flex ml-12 lg:ml-96">
+        <nav className="flex ml-12 lg:ml-80">
           <NavLink
             to="/post"
             activeClassName="text-red-100 bg-red-700"
