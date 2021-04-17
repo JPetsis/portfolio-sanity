@@ -11,12 +11,12 @@ export default function NavBar() {
             to="/"
             exact
             activeClassName="text-white"
-            className="inflex-flex items-center py-2 px-2 mr-1 my-1 text-red-100 hover:text-green-800 text-3xl font-bold md:mr-64"
+            className="inflex-flex items-center py-2 px-2 mr-1 my-1 text-red-100 hover:text-green-800 text-3xl font-bold md:mr-64 lg:mr-32"
           >
             Ioannis
           </NavLink>
         </nav>
-        <nav className="flex ml-12 lg:ml-80">
+        <nav className="flex ml-8 lg:ml-80">
           <NavLink
             to="/post"
             activeClassName="text-red-100 bg-red-700"
