@@ -33,7 +33,7 @@ export default function Project() {
         <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projectData &&
             projectData.map((project, index) => (
-              <article className="relative rounded-lg shadow-xl bg-gray-300 p-16">
+              <article className="relative rounded-lg shadow-xl bg-gray-300 p-10">
                 <h3 className="text-gray-800 text-3xl font-bold mb-2">{project.title}</h3>
                 <div className="text-gray-500 text-xs space-x-4">
                   <span>
