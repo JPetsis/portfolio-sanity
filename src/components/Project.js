@@ -26,7 +26,7 @@ export default function Project() {
     <main className="bg-gray-700 min-h-screen">
       <Navbar />
       <section className="container mx-auto p-12">
-        <h1 className="text-5xl flex justify-center pb-4">My Projects</h1>
+        <h1 className="text-5xl flex justify-center pb-4 text-yellow-700">My Projects</h1>
         <h2 className="text-lg text-gray-50 flex justify-center mb-12">
           Welcome to my projects page!
         </h2>

@@ -29,7 +29,7 @@ export default function Post() {
     <main className="bg-gray-700 min-h-screen">
       <Navbar />
       <section className="container mx-auto p-12">
-        <h1 className="text-5xl flex justify-center pb-4">Blog Posts Page</h1>
+        <h1 className="text-5xl flex justify-center pb-4 text-yellow-700">Blog Posts Page</h1>
         <h2 className="text-lg text-gray-50 flex justify-center mb-12">
           Welcome to my page of blog posts
         </h2>

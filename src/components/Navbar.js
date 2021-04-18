@@ -11,7 +11,7 @@ export default function NavBar() {
             to="/"
             exact
             activeClassName="text-white"
-            className="inflex-flex items-center py-2 px-2 mr-1 my-1 text-red-100 hover:text-green-800 text-3xl font-bold md:mr-64 lg:mr-32"
+            className="inflex-flex items-center py-2 px-2 mr-1 my-1 text-red-100 hover:text-green-500 text-3xl font-bold md:mr-64 lg:mr-32"
           >
             Ioannis
           </NavLink>
@@ -19,22 +19,22 @@ export default function NavBar() {
         <nav className="flex ml-8 lg:ml-80">
           <NavLink
             to="/post"
-            activeClassName="text-red-100 bg-red-700"
-            className="inflex-flex items-center py-2 px-2 my-3 rounded text-red-200 hover:text-green-800 font-bold"
+            activeClassName="text-red-100 bg-green-700"
+            className="inflex-flex items-center py-2 px-2 my-3 rounded text-red-200 hover:text-green-500 font-bold"
           >
             Blog
           </NavLink>
           <NavLink
             to="/project"
-            activeClassName="text-red-100 bg-red-700"
-            className="inflex-flex items-center py-2 px-2 my-3 rounded text-red-200 hover:text-green-800 font-bold"
+            activeClassName="text-red-100 bg-green-700"
+            className="inflex-flex items-center py-2 px-2 my-3 rounded text-red-200 hover:text-green-500 font-bold"
           >
             Projects
           </NavLink>
           <NavLink
             to="/about"
-            activeClassName="text-red-100 bg-red-700"
-            className="inflex-flex items-center py-2 px-2 my-3 rounded text-red-200 hover:text-green-800 font-bold"
+            activeClassName="text-red-100 bg-green-700"
+            className="inflex-flex items-center py-2 px-2 my-3 rounded text-red-200 hover:text-green-500 font-bold"
           >
             About Me
           </NavLink>

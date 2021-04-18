@@ -43,6 +43,21 @@ export default function About() {
             </h1>
             <div className="prose lg:prose-xl text-black">
               <BlockContent blocks={author.bio} projectId="c5fpq4a4" dataset="production" />
+              <span className="text-1xl">
+                If you would like to learn more contact me{" "}
+                <a href="petsisjohn@gmail.com" className="font-bold">
+                  HERE
+                </a>
+                <a
+                  href="/home/snowblind7/Web Development/My Projects/portfolio-sanity/src/Resume.pdf"
+                  className="ml-60 bg-red-700 rounded bg-opacity-75 py-2 px-4 font-bold"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  download
+                >
+                  Resume
+                </a>
+              </span>
             </div>
           </div>
         </section>
