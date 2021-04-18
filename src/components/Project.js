@@ -34,9 +34,7 @@ export default function Project() {
           {projectData &&
             projectData.map((project, index) => (
               <article className="relative rounded-lg shadow-xl bg-gray-300 p-16">
-                <h3 className="text-gray-800 text-3xl font-bold mb-2">
-                  <a>{project.title}</a>
-                </h3>
+                <h3 className="text-gray-800 text-3xl font-bold mb-2">{project.title}</h3>
                 <div className="text-gray-500 text-xs space-x-4">
                   <span>
                     <strong className="font-bold">Finished on</strong>:{" "}
