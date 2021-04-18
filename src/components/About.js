@@ -45,15 +45,15 @@ export default function About() {
               <BlockContent blocks={author.bio} projectId="c5fpq4a4" dataset="production" />
               <span className="text-1xl">
                 If you would like to learn more contact me{" "}
-                <a href="petsisjohn@gmail.com" className="font-bold">
+                <a href="mailto: petsisjohn@gmail.com" className="font-bold">
                   HERE
                 </a>
                 <a
-                  href="/home/snowblind7/Web Development/My Projects/portfolio-sanity/src/Resume.pdf"
+                  href="https://drive.google.com/file/d/1MK6z4hdT2vJuTfUubBNTtXaIkxAQvb-O/view?usp=sharing"
                   className="ml-60 bg-red-700 rounded bg-opacity-75 py-2 px-4 font-bold"
                   rel="noopener noreferrer"
                   target="_blank"
-                  download
+                  download="Resume.pdf"
                 >
                   Resume
                 </a>
