@@ -49,7 +49,7 @@ export default function About() {
                   HERE
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1MK6z4hdT2vJuTfUubBNTtXaIkxAQvb-O/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1y0CITweuOhisnGog3hjsoQFnURGkpei4/view?usp=sharing"
                   className="ml-60 bg-red-700 rounded bg-opacity-75 py-2 px-4 font-bold"
                   rel="noopener noreferrer"
                   target="_blank"
